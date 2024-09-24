@@ -2,7 +2,7 @@ name: Workflow 2
 on: [push]
 jobs:
   build:
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
     steps:
       - name: STEP 1
         run: |
