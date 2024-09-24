@@ -1,0 +1,15 @@
+name: Workflow 2
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: STEP 1
+        run: |
+          echo "Update README.MD"
+          cat andraandrei/PRUEBA_ACTIONS/README.md
+          echo -e "PEPE" > README.md
+          git add README.md
+          git commit --message="Update README.md"
+          git push
+    
