@@ -7,7 +7,6 @@ jobs:
       - name: STEP 1
         run: |
           echo "Update README.MD"
-          cat ./PRUEBA_ACTIONS/README.md
           echo -e "PEPE" > README.md
           git add README.md
           git commit --message="Update README.md"
