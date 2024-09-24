@@ -7,9 +7,9 @@ jobs:
       - name: STEP 1
         run: |
           echo "Update README.MD"
-          cat .github/steps/PRUEBA_ACTIONS/README.md
-          echo -e "PEPE" > .github/steps/PRUEBA_ACTIONS/README.md
-          git add .github/steps/PRUEBA_ACTIONS/README.md
+          cat .github/steps/PRUEBA_ACTIONS-README.md
+          echo -e "PEPE" > README.md
+          git add .github/steps/PRUEBA_ACTIONS-README.md
           git commit --message="Update README.md"
           git push
     
