@@ -1,9 +1,9 @@
 name: Primer Workflow propio
 #Este workflow se activa cuando se realiza un push en la rama 'feature'
 on: 
- push:
+ pull_request:
    branches:
-    - 'feature'
+    - main
 jobs:
   build:
     name: Post Hello World comment
