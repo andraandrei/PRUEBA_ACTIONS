@@ -1,0 +1,6 @@
+name: Acccion reutilizable
+on: pull-request
+job:
+  build:
+    runs-on: ubuntu-latest
+    run: echo "Hello World"
