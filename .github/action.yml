@@ -1,0 +1,5 @@
+name: Acccion reutilizable
+job:
+  build:
+    runs-on: ubuntu-latest
+    run: echo "Hello World"
