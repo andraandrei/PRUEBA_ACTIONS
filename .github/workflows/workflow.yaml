@@ -1,15 +1,12 @@
 name: Primer Workflow propio
 #Este workflow se activa cuando se realiza un pull_request
-on: 
- pull_request:
-   branches:
-    - main
+on: workflow_dispatch
 jobs:
   build:
-    name: Post Hello World comment
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World!"
+      - name: Step que usa una accion
+        uses: andraandrei/PRUEBA_ACTIONS/github/actions/action.yml@V1
     
 
 
