@@ -1,6 +1,6 @@
 name: Primer Workflow propio
 #Este workflow se activa cuando se realiza un pull_request
-on: workflow_dispatch
+on: pull_request
 jobs:
   build:
     runs-on: ubuntu-latest
