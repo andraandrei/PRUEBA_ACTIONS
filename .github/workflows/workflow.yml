@@ -6,9 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Step que usa una accion
-        uses: andraandrei/PRUEBA_ACTIONS/.github/actions/action.yml@main
+        uses: .github/actions/action.yml@main
        
-    
-
-
-  
