@@ -1,6 +1,12 @@
 name: Acccion
 descripcion: Accion reutilizable desde un workflow
+inputs:
+  github_token:
+    description: "GitHub Token"
+    required: true 
 runs:
   steps:
   - name: Print Hello World
+    env:
+      GITHUB_TOKEN: ${{ inputs.github_token }}
     run: echo "Hello World"
