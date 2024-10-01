@@ -1,9 +1,5 @@
 name: Acccion
 descripcion: Accion reutilizable desde un workflow
-inputs:
-  github_token:
-    description: "GitHub Token"
-    required: true 
 runs:
   using: 'composite'
   steps:
