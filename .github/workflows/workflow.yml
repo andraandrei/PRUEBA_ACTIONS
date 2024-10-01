@@ -1,0 +1,16 @@
+name: Primer Workflow propio
+#Este workflow se activa cuando se realiza un pull_request
+on: 
+  pull_request:
+    branches:
+      - main
+jobs:
+  hello-workd-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Step que usa una accion
+        uses: andraandrei/PRUEBA_ACTIONS/.github/action.yml@main
+
+       

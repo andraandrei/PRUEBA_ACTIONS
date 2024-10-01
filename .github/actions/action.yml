@@ -1,0 +1,6 @@
+name: Acccion reutilizable
+description: Accion que es llamda desde otro workflow
+outputs:
+  exampleOutput:
+    description: 'Una salida de ejemplo'
+    run: echo "Hello World"
