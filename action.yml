@@ -1,0 +1,8 @@
+name: Acccion
+descripcion: Accion reutilizable desde un workflow
+runs:
+  using: 'composite'
+  steps:
+  - name: Print Hello World
+    shell: bash
+    run: echo "Hello World"
