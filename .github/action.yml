@@ -1,5 +1,6 @@
-name: Acccion reutilizable
-job:
-  build:
-    runs-on: ubuntu-latest
+name: Acccion
+descripcion: Accion reutilizable desde un workflow
+runs:
+  steps:
+  - name: Print Hello World
     run: echo "Hello World"
