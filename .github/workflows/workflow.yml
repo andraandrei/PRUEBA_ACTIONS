@@ -3,7 +3,7 @@ name: Primer Workflow propio
 on: 
   pull_request:
     branches:
-      -main
+      - main
 jobs:
   hello-workd-job:
     runs-on: ubuntu-latest
